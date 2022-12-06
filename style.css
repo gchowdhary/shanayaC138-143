@@ -1,0 +1,56 @@
+body
+{
+background-size: cover;
+background-position: center;
+}
+
+.heading{
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.heading h3{
+    display: inline;
+    font-size: 30px;
+}
+
+.heading button{
+    float: right;
+    border: 3px solid snow;
+}
+
+.copy-right footer{
+    line-height: 5;
+    margin-bottom: 0px;
+    bottom: 0px;
+    position: sticky;
+    color:snow;
+    width:100%;
+}
+
+.play-button{
+    background: linear-gradient(#3cacf6 0% , #900384 100%);
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.restart{
+    background:linear-gradient( #83daff 0% , #006eff 100%);
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.modal-body{
+text-align: left;
+}
+
+canvas{
+    border-radius: 5px;
+    box-shadow: 3px 3px 75px #83daff;
+    border: 2px solid turquoise;
+}
+
+a{
+    color:snow;
+}
